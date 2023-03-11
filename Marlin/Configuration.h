@@ -2135,12 +2135,12 @@
   #define BED_TRAMMING_INSET_LFRB { 35, 35, 45, 45 } // (mm) Left, Front, Right, Back insets
   #define BED_TRAMMING_HEIGHT      0.0        // (mm) Z height of nozzle at leveling points
   #define BED_TRAMMING_Z_HOP       4.0        // (mm) Z height of nozzle between leveling points
-  //#define BED_TRAMMING_INCLUDE_CENTER       // Move to the center after the last corner
+  #define BED_TRAMMING_INCLUDE_CENTER       // Move to the center after the last corner
   #define BED_TRAMMING_USE_PROBE
   #if ENABLED(BED_TRAMMING_USE_PROBE)
     #define BED_TRAMMING_PROBE_TOLERANCE 0.1  // (mm)
     #define BED_TRAMMING_VERIFY_RAISED        // After adjustment triggers the probe, re-probe to verify
-    //#define BED_TRAMMING_AUDIO_FEEDBACK
+    #define BED_TRAMMING_AUDIO_FEEDBACK
   #endif
 
   /**
@@ -2349,11 +2349,11 @@
 #define PREHEAT_5_TEMP_CHAMBER 35
 #define PREHEAT_5_FAN_SPEED   255 // Value from 0 to 255
 
-//#define PREHEAT_6_LABEL       "PETG"
-//#define PREHEAT_6_TEMP_HOTEND 225
-//#define PREHEAT_6_TEMP_BED     70
-//#define PREHEAT_6_TEMP_CHAMBER 35
-//#define PREHEAT_6_FAN_SPEED   255 // Value from 0 to 255
+#define PREHEAT_6_LABEL       "PETG"
+#define PREHEAT_6_TEMP_HOTEND 225
+#define PREHEAT_6_TEMP_BED     70
+#define PREHEAT_6_TEMP_CHAMBER 35
+#define PREHEAT_6_FAN_SPEED   255 // Value from 0 to 255
 
 //#define PREHEAT_7_LABEL       "PA"
 //#define PREHEAT_7_TEMP_HOTEND 200
