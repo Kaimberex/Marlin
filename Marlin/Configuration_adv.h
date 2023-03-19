@@ -1038,7 +1038,7 @@
   //#define TRAMMING_POINT_XY { {  20, 20 }, { 180,  20 }, { 180, 180 }, { 20, 180 } }
   //#define TRAMMING_POINT_XY { {  58.75, 58.75 }, { 176.25,  58.75 }, { 176.25, 176.25 }, { 58.75, 176.25 } }
   //#define TRAMMING_POINT_XY { {  40, 40 }, { 180,  40 }, { 180, 180 }, { 40, 180 } }
-  #define TRAMMING_POINT_XY { {  30, 30 }, { 190,  30 }, { X_CENTER, Y_CENTER }, { 190, 190 }, { 30, 180 } }
+  #define TRAMMING_POINT_XY { {  40, 40 }, { 180,  40 }, { X_CENTER, Y_CENTER }, { 180, 180 }, { 40, 180 } }
 
   // Define position names for probe points.
   #define TRAMMING_POINT_NAME_1 "Front-Left"
@@ -1052,7 +1052,7 @@
 
   #define ASSISTED_TRAMMING_WIZARD    // Add a Tramming Wizard to the LCD menu
 
-  #define ASSISTED_TRAMMING_WAIT_POSITION { X_CENTER, Y_CENTER, 30 } // Move the nozzle out of the way for adjustment
+  //#define ASSISTED_TRAMMING_WAIT_POSITION { X_CENTER, Y_CENTER, 30 } // Move the nozzle out of the way for adjustment
 
   /**
    * Screw thread:
